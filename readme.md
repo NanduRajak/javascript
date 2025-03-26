@@ -1,0 +1,1 @@
+Just bsaics of javaScript!
