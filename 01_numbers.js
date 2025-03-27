@@ -1,13 +1,8 @@
-let name = "zoro Bhai";
-function zoroAttacks() {
-  var attacks = ["snathoruyu.. Onigiri..!", "Dragon twist", "Tiger stirke"];
-  console.log(attacks);
-}
-function zoroNickNames() {
-  var nicknames = ["moss Head", "Roronoa", "king of hell"];
-  console.log(nicknames);
-}
+let num = 2;
 
-console.log(name);
-zoroAttacks();
-zoroNickNames();
+function square(number) {
+  var square1 = number * number;
+  console.log(`Square of ${number} is ${square1}.`);
+}
+console.log(num);
+square(2097);
