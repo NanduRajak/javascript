@@ -27,3 +27,34 @@ let marks = 25;
 
 const result = marks >= 26 ? "passed" : "failed";
 // console.log(result);
+
+const div = 64 % 2 == 0 ? "divided" : "not divided";
+// console.log(div);
+
+// Printing Prime Numbers from 3 to 100
+
+function primeNum(val) {
+  for (let i = 2; i < val; i++) {
+    if (val % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+for (let i = 2; i <= 100; i++) {
+  if (primeNum(i)) {
+    // console.log(i);
+  }
+}
+
+// Check wheather given number is "Prime Number" or not
+
+function primeNum(number) {
+  if (number < 2) return false;
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) return false;
+  }
+  return true;
+}
+console.log(primeNum(19));
