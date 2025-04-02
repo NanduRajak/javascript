@@ -75,3 +75,16 @@ const akka = "ZoroSenpai";
 // console.log(numOfVowels(akka));
 
 //using arrow functions
+const enniVowelsUnnai = (name) => {
+  const yes = "aeiouAEIOU";
+  let count = 0;
+  for (const char of name) {
+    if (yes.includes(char)) {
+      count++;
+    }
+  }
+  return count;
+};
+
+const be = "andjhytiwqipincniwnei";
+console.log(enniVowelsUnnai(be));
