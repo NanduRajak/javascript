@@ -57,4 +57,21 @@ function primeNum(number) {
   }
   return true;
 }
-console.log(primeNum(19));
+// console.log(primeNum(19));
+
+// printing number of vowels using functions
+
+function numOfVowels(name) {
+  let string = "aeiouAEIOU";
+  let count = 0;
+  for (const char of name) {
+    if (string.includes(char)) {
+      count++;
+    }
+  }
+  return count;
+}
+const akka = "ZoroSenpai";
+// console.log(numOfVowels(akka));
+
+//using arrow functions
