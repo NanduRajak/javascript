@@ -1,8 +1,8 @@
-// function myFunc(num1, num2) {
-//   let result = num1 * num2;
-//   console.log(`Your result is :${result}`);
-// }
-// myFunc(298, 2782);
+function myFunc(num1, num2) {
+  let result = num1 * num2;
+  //   console.log(`Your result is :${result}`);
+}
+myFunc(298, 2782);
 
 // Printing numbers in decending order
 
@@ -86,5 +86,5 @@ const enniVowelsUnnai = (name) => {
   return count;
 };
 
-const be = "andjhytiwqipincniwnei";
-console.log(enniVowelsUnnai(be));
+const be = "";
+// console.log(enniVowelsUnnai(be));
