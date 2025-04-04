@@ -97,3 +97,4 @@ function sum(a,b){
 function cal(a,b,sum){
   return sum
 }
+console.log(2,3,sum)
