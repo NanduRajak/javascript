@@ -88,3 +88,9 @@ const enniVowelsUnnai = (name) => {
 
 const be = "";
 // console.log(enniVowelsUnnai(be));
+
+// Call Back Function
+function sum(a,b){
+  const result = a + b
+  return result
+}
