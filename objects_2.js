@@ -1,4 +1,4 @@
-// let newObj = new Object();
+let newObj = new Object();
 
 let sideChar = {};
 sideChar.name = "Roronoa Zoro";
