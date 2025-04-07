@@ -14,12 +14,12 @@ sideChar.FavSwords = "enma";
 
 // concatinating the objects
 
-// const obj1 = {
-//   name: "Nami",
-//   role: "navigator",
-//   isDfUser: false,
-//   favAttack: "Thunder Bolt",
-// };
+const obj1 = {
+  name: "Nami",
+  role: "navigator",
+  isDfUser: false,
+  favAttack: "Thunder Bolt",
+};
 // const obj2 = {
 //   namaiwa: "Nico Robin",
 //   palying: "archaeologist",
