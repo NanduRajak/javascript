@@ -24,5 +24,22 @@ Array.prototype.calculate = function (logic) {
 
 console.log(radius.map(area));
 console.log(radius.calculate(area));
-// console.log(calculate(radius, circumfrance));
-// console.log(calculate(radius, diameter));
+console.log(calculate(radius, circumfrance));
+console.log(calculate(radius, diameter));
+
+// Finding the area,perimeter of Rectangle
+
+const areaOfRect = function (length, breadth) {
+  const rectangleArea = length * breadth;
+  const message = "Area of rectangle : " + rectangleArea;
+  return message;
+};
+
+const perimeterOfRect = function (length, breadth) {
+  const rectanglePeri = 2 * (length + breadth);
+  const message = "Perimeter of rectangle : " + rectanglePeri;
+  return message;
+};
+
+console.log(areaOfRect(3, 30));
+console.log(perimeterOfRect(20, 100));
