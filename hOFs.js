@@ -17,7 +17,6 @@ const filteringAnta = array.filter((value) => {
 // reduce()
 
 const reduceAnta = array.reduce((acc, curr) => {
-  const val = acc * curr;
-  return val;
-});
+  //   return acc + curr;
+}, 0);
 // console.log(reduceAnta);
