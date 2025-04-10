@@ -14,7 +14,7 @@ sideChar.FavSwords = "enma";
 
 // concatinating the objects
 
-const obj1 = {
+const obj01 = {
   name: "Nami",
   role: "navigator",
   isDfUser: false,
