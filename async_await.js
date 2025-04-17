@@ -18,7 +18,7 @@ async function promiseHandle() {
   console.log(p2);
 }
 
-// promiseHandle();
+//promiseHandle();
 
 // Fetch()
 
