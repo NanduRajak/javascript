@@ -22,7 +22,7 @@ async function promiseHandle() {
 
 // Fetch()
 
-const API_URL = "https://googe.com";
+const API_URL = "https://google.com";
 
 async function fetchData() {
   try {
