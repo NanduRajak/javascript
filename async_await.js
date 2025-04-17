@@ -18,4 +18,20 @@ async function promiseHandle() {
   console.log(p2);
 }
 
-promiseHandle();
+// promiseHandle();
+
+// Fetch()
+
+const API_URL = "https://googe.com";
+
+async function fetchData() {
+  try {
+    const data = await fetch(API_URL);
+    //   const jsonData = await data.json();
+
+    console.log(data);
+  } catch (error) {
+    console.error("Failed to fetch the data!");
+  }
+}
+fetchData();
