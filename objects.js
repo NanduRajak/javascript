@@ -32,3 +32,22 @@ obj.intro = function () {
 };
 
 obj.intro();
+
+// clousers in objects:
+
+function myObj() {
+  let number = 1;
+  return {
+    display: function () {
+      return console.log(number);
+    },
+    increment: function () {
+      return number++;
+    },
+  };
+}
+
+let myobject = myObj();
+myobject.display();
+myobject.increment();
+myobject.display();
