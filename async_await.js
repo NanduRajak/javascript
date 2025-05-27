@@ -9,6 +9,11 @@ const promise2 = new Promise((resolve, reject) => {
     resolve("promise2 resolved");
   }, 10000);
 });
+const promise3 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("promise2 resolved");
+  }, 1000);
+});
 
 async function promiseHandle() {
   const p1 = await promise1;
