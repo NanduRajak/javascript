@@ -21,7 +21,7 @@ async function promiseHandle() {
 
   const p2 = await promise2;
   console.log(p2);
-  const
+  const p3 = await promised3:
 }
 
 promiseHandle();
