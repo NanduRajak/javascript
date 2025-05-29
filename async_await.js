@@ -12,7 +12,7 @@ const promise2 = new Promise((resolve, reject) => {
 const promise3 = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("promise3 resolved");
-  }, 1000);
+  }, 10000);
 });
 
 async function promiseHandle() {
