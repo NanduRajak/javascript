@@ -1,6 +1,7 @@
-function apperasTwice(nums) {
+function appearTwice(nums) {
   const result = [];
-  for (let i = 0; i < nums.length; i++) {
+
+  for (let i = 0; i <= nums.length; i++) {
     const index = Math.abs(nums[i]) - 1;
 
     if (nums[index] < 0) {
@@ -9,9 +10,7 @@ function apperasTwice(nums) {
       nums[index] = -nums[index];
     }
   }
-
   return result;
 }
 
-console.log(apperasTwice([2, 2, 4, 5, 4, 3, 1]));
-console.log(apperasTwice(1, 2, 3, 4));
+console.log(appearTwice([1, 2, 3, 3, 1]));
