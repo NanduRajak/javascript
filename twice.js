@@ -13,4 +13,23 @@ function appearTwice(nums) {
   return result;
 }
 
-console.log(appearTwice([1, 2, 3, 3, 1]));
+// console.log(appearTwice([1, 2, 3, 3, 1]));
+
+function twice(arr) {
+  const count = {};
+  const result = [];
+
+  for (let num of arr) {
+    count[num] = (count[num] || 0) + 1;
+  }
+
+  for (let num in count) {
+    if (count[num] === 2) {
+      result.push(parseInt(num));
+    }
+  }
+
+  return result.sort((a, b) => a - b);
+}
+
+console.log(twice([1, 1, 2, 2, 3, 4, 5, 5]));
