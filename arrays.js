@@ -19,7 +19,6 @@ for (let i = 0; i < itemsPrices.length; i++) {
   //     `Final price of items after applying discount is : ${finalPrice}`
   //   );
 }
-
 // Using slice, splice, shift, unshift, push, pop
 let foodItems = [
   "Biryani",
