@@ -30,7 +30,6 @@ const favFood = foodItems.slice(0, 2);
 // console.log(favFood);
 const deleteFoodItem = foodItems.shift();
 console.log(`Deleted FoodItem : ${deleteFoodItem}`);
-
 foodItems.push("Butter nan");
 console.log(foodItems);
 
