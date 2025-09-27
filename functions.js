@@ -14,7 +14,7 @@ for (let i = 10; i >= 1; i--) {
 
 for (let num1 = 1; num1 <= 10; num1++) {
   const element = `Starting from ${num1}`;
-  //   console.log(el
+  //   console.log(element)
   for (let num2 = 1; num2 <= 10; num2++) {
     const element = `${num1} * ${num2} = ` + num1 * num2;
     // console.log(element);
